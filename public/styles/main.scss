@@ -4,6 +4,8 @@
 $black: #333333;
 
 body {
+  height: 100%;
+  width: 100%;
   font-family: "Noto Sans SC", sans-serif;
 }
 
@@ -24,10 +26,13 @@ canvas {
   background-position: 50% 50%;
 }
 
+.leftBlock,
+.centerBlock,
 .rightBlock {
   height: 100vh;
 }
 
 .centerBlock {
-  background-color: linear-gradient (to right, white, #b67e18);
+  background-color: #b67e18;
+  background: -webkit-linear-gradient (to right, white, #b67e18);
 }
