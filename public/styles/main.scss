@@ -1,9 +1,8 @@
 $enable-gradients: true;
+$black: #333333;
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+SC");
-
-$black: #333333;
 
 body {
   height: 100%;
@@ -34,10 +33,26 @@ canvas {
   z-index: 2;
   height: 80vh;
   width: 100%;
-  background: #ca8b43;
-  border-bottom-right-radius: 50% 100px;
-  border-bottom-left-radius: 25px;
-  border-top-left-radius: 50% 100px;
-  border-top-right-radius: 25px;
+  background: whitesmoke;
+  border-radius: 15px;
   margin-top: 10vh;
+  // border-bottom-right-radius: 50% 100px;
+  // border-bottom-left-radius: 25px;
+  // border-top-left-radius: 50% 100px;
+  // border-top-right-radius: 25px;
+}
+
+.nameTitle {
+  float: right;
+  margin-right: 20px;
+}
+
+.googleMapsContainer {
+  // height: 100vh;
+  display: flex;
+}
+
+#map {
+  height:100%;
+  width:100%;
 }
