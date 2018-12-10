@@ -6772,8 +6772,7 @@ canvas {
   padding: 25px; }
 
 .googleMapsContent {
-  height: 94.6vh;
-  background-color: lightblue; }
+  height: 94.6vh; }
 
 .breweryContent {
   background-color: lightcoral; }
@@ -6781,3 +6780,6 @@ canvas {
 #map {
   height: 100%;
   width: 100%; }
+
+.sideBars {
+  background: url(../images/dust_scratches/dust_scratches.png); }

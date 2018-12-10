@@ -32,9 +32,10 @@ canvas {
   padding: 25px;
 }
 
+
+//Total 94.6vh
 .googleMapsContent {
   height: 94.6vh;
-  background-color: lightblue;
 }
 
 .breweryContent {
@@ -44,4 +45,8 @@ canvas {
 #map {
   height:100%;
   width:100%;
+}
+
+.sideBars {
+  background: url(../images/dust_scratches/dust_scratches.png)
 }
