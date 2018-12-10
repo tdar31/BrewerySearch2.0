@@ -1,4 +1,5 @@
 /*! bulma.io v0.7.2 | MIT License | github.com/jgthms/bulma */
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+SC");
 @keyframes spinAround {
   from {
     transform: rotate(0deg); }
@@ -6746,6 +6747,10 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+html,
+body {
+  overflow-y: hidden; }
+
 #particles-js {
   z-index: -1;
   position: absolute;
@@ -6755,3 +6760,24 @@ label.panel-block {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%; }
+
+canvas {
+  display: block;
+  vertical-align: bottom; }
+
+.containerMemer {
+  margin-top: 50%; }
+
+.clickButton {
+  padding: 25px; }
+
+.googleMapsContent {
+  height: 94.6vh;
+  background-color: lightblue; }
+
+.breweryContent {
+  background-color: lightcoral; }
+
+#map {
+  height: 100%;
+  width: 100%; }
