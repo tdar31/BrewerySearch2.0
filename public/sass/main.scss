@@ -2,6 +2,13 @@
 @import "../../node_modules/bulma/bulma.sass";
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans+SC");
 
+.navbar {
+  &.is-transparent {
+    background-color: transparent;
+    background-image: none;
+  }
+}
+
 html,
 body {
   overflow-y: hidden;
@@ -32,7 +39,6 @@ canvas {
   padding: 25px;
 }
 
-
 //Total 94.6vh
 .googleMapsContent {
   height: 94.6vh;
@@ -43,10 +49,20 @@ canvas {
 }
 
 #map {
-  height:100%;
-  width:100%;
+  height: 100%;
+  width: 100%;
+}
+
+.pageWrapper {
+  background: url(../images/wheat/wheat.png);  
 }
 
 .sideBars {
-  background: url(../images/dust_scratches/dust_scratches.png)
+  // background: url(../images/dust_scratches/dust_scratches.png);
+}
+
+.navbarHeader {
+  height: 5.6vh;
+  margin-bottom: 0 !important;
+  color: whitesmoke;
 }

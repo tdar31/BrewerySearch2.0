@@ -6747,6 +6747,10 @@ label.panel-block {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
+.navbar.is-transparent {
+  background-color: transparent;
+  background-image: none; }
+
 html,
 body {
   overflow-y: hidden; }
@@ -6781,5 +6785,10 @@ canvas {
   height: 100%;
   width: 100%; }
 
-.sideBars {
-  background: url(../images/dust_scratches/dust_scratches.png); }
+.pageWrapper {
+  background: url(../images/wheat/wheat.png); }
+
+.navbarHeader {
+  height: 5.6vh;
+  margin-bottom: 0 !important;
+  color: whitesmoke; }
