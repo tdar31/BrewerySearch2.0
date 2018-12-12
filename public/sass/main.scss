@@ -44,6 +44,7 @@ canvas {
   border-radius: 5px;
   border: 2px solid lightgray;
   height: 90vh;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 //Total 94.6vh
@@ -60,16 +61,22 @@ canvas {
 }
 
 .pageWrapper {
-  background: url(../images/wheat/wheat.png);
+  background: linear-gradient(rgb(245, 245, 245), rgb(221, 220, 220));
 }
 
 .sideBars {
-  // background: url(../images/dust_scratches/dust_scratches.png);
   height: 95vh;
 }
 
 .navbarHeader {
   height: 50px;
   margin-bottom: 0 !important;
-  color: whitesmoke;
+  color: #333333;
+}
+
+.breweryInput {
+  width: 50%;
+  margin: auto;
+  display: block;
+  margin-top: 15px;
 }
