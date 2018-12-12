@@ -39,9 +39,16 @@ canvas {
   padding: 25px;
 }
 
+#map,
+.breweryContent {
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  height: 90vh;
+}
+
 //Total 94.6vh
 .googleMapsContent {
-  height: 94.6vh;
+  height: 90vh;
 }
 
 .breweryContent {
@@ -49,20 +56,20 @@ canvas {
 }
 
 #map {
-  height: 100%;
-  width: 100%;
+  width: 95%;
 }
 
 .pageWrapper {
-  background: url(../images/wheat/wheat.png);  
+  background: url(../images/wheat/wheat.png);
 }
 
 .sideBars {
   // background: url(../images/dust_scratches/dust_scratches.png);
+  height: 95vh;
 }
 
 .navbarHeader {
-  height: 5.6vh;
+  height: 50px;
   margin-bottom: 0 !important;
   color: whitesmoke;
 }

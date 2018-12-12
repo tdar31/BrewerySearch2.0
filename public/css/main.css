@@ -6775,20 +6775,28 @@ canvas {
 .clickButton {
   padding: 25px; }
 
+#map,
+.breweryContent {
+  border-radius: 5px;
+  border: 2px solid lightgray;
+  height: 90vh; }
+
 .googleMapsContent {
-  height: 94.6vh; }
+  height: 90vh; }
 
 .breweryContent {
   background-color: lightcoral; }
 
 #map {
-  height: 100%;
-  width: 100%; }
+  width: 95%; }
 
 .pageWrapper {
   background: url(../images/wheat/wheat.png); }
 
+.sideBars {
+  height: 95vh; }
+
 .navbarHeader {
-  height: 5.6vh;
+  height: 50px;
   margin-bottom: 0 !important;
   color: whitesmoke; }
