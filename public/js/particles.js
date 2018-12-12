@@ -1,7 +1,7 @@
 particlesJS("particles-js", {
   particles: {
     number: {
-      value: 550,
+      value: 400,
       density: { enable: true, value_area: 1000.1416867389551 }
     },
     color: { value: "#ffffff" },
@@ -32,7 +32,7 @@ particlesJS("particles-js", {
       enable: true,
       speed: 4,
       direction: "top",
-      random: true,
+      random: false,
       straight: false,
       out_mode: "out",
       bounce: false,
@@ -51,7 +51,7 @@ particlesJS("particles-js", {
       bubble: { distance: 400, size: 40, duration: 2, opacity: 8, speed: 3 },
       repulse: { distance: 100, duration: 0.4 },
       push: { particles_nb: 10 },
-      remove: { particles_nb: 2 }
+      remove: { particles_nb: 10 }
     }
   },
   retina_detect: true

@@ -6807,3 +6807,8 @@ canvas {
   margin: auto;
   display: block;
   margin-top: 15px; }
+
+.titleText {
+  background-color: lightskyblue;
+  margin-top: 15px;
+  border-radius: 5px; }

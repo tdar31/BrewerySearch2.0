@@ -44,7 +44,7 @@ canvas {
   border-radius: 5px;
   border: 2px solid lightgray;
   height: 90vh;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 //Total 94.6vh
@@ -79,4 +79,10 @@ canvas {
   margin: auto;
   display: block;
   margin-top: 15px;
+}
+
+.titleText {
+  background-color: lightskyblue;
+  margin-top: 15px;
+  border-radius: 5px;
 }
