@@ -6779,14 +6779,20 @@ canvas {
 .breweryContent {
   border-radius: 5px;
   border: 2px solid lightgray;
-  height: 90vh;
+  height: 92vh;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
-.googleMapsContent {
-  height: 90vh; }
-
 .breweryContent {
-  background-color: lightcoral; }
+  background-color: lightcoral;
+  z-index: 1; }
+
+.backgroundBC {
+  display: block;
+  background-color: lightseagreen;
+  z-index: 1;
+  height: 60px;
+  position: fixed;
+  border-radius: 5px; }
 
 #map {
   width: 95%; }
@@ -6806,9 +6812,18 @@ canvas {
   width: 50%;
   margin: auto;
   display: block;
-  margin-top: 15px; }
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px; }
 
 .titleText {
   background-color: lightskyblue;
   margin-top: 15px;
   border-radius: 5px; }
+
+.breweryContainer {
+  background-color: lightseagreen;
+  height: 89%;
+  width: 88%;
+  margin: auto;
+  display: block; }
