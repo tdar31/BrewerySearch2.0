@@ -3,5 +3,8 @@ var myFunction = function() {
   $.get("/api", function(data) {
     console.log(data[0].breweryName);
     $(".breweryContainer").text(data[0].breweryName);
+    data.forEach(function(element) {
+      console.log(element);
+    });
   });
 };
