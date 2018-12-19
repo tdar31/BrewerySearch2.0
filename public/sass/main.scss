@@ -105,4 +105,15 @@ canvas {
   width: 88%;
   margin: auto;
   display: block;
+  overflow-y: auto;
+}
+
+// .breweryName
+// .breweryImage
+// .addressText
+// .phoneNum
+// .regionText
+// .websiteText
+.descriptText {
+  border: 1px solid #333333;
 }
