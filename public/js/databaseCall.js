@@ -19,7 +19,7 @@ var generateBrew = function() {
       //Region
       $("<div>").addClass("regionText").appendTo(".breweryContainer"); //.text(brew.region)
       //Website
-      $("<div>").addClass("websiteText").appendTo(".breweryContainer"); //.text(brew.website)
+      $("<a>").addClass("websiteText").appendTo(".breweryContainer"); //.text(brew.website)
       //Full Description
       $("<div>").addClass("descriptText").appendTo(".breweryContainer"); //.text(brew.website)
 
