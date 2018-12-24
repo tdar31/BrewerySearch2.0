@@ -12,7 +12,7 @@
 html,
 body {
   overflow-y: hidden;
-  // font-family: "Noto Sans SC", sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
 }
 
 #particles-js {
@@ -100,7 +100,7 @@ canvas {
 }
 
 .breweryContainer {
-  background-color: lightseagreen;
+  // background-color: lightseagreen;
   height: 89%;
   width: 88%;
   margin: auto;
@@ -108,13 +108,27 @@ canvas {
   overflow-y: auto;
 }
 
-// .breweryName
-// .breweryImage
-// .addressText
-// .phoneNum
+.breweryName
+.breweryImage,
+.addressText,
+.phoneNum,
+.regionText,
+.websiteText,
+.descriptText, {
+  margin-right: 10px;
+}
+
+
+
+.phoneNum {
+  float: right;
+  margin-right: 10px;
+  color: lightgray;
+}
 // .regionText
 // .websiteText
 .descriptText {
   border: 1px solid #333333;
   margin-bottom: 30px;
+  margin-top: 10px;
 }

@@ -6753,7 +6753,8 @@ label.panel-block {
 
 html,
 body {
-  overflow-y: hidden; }
+  overflow-y: hidden;
+  font-family: "Noto Sans SC", sans-serif; }
 
 #particles-js {
   z-index: -1;
@@ -6822,13 +6823,26 @@ canvas {
   border-radius: 5px; }
 
 .breweryContainer {
-  background-color: lightseagreen;
   height: 89%;
   width: 88%;
   margin: auto;
   display: block;
   overflow-y: auto; }
 
+.breweryName .breweryImage,
+.addressText,
+.phoneNum,
+.regionText,
+.websiteText,
+.descriptText {
+  margin-right: 10px; }
+
+.phoneNum {
+  float: right;
+  margin-right: 10px;
+  color: lightgray; }
+
 .descriptText {
   border: 1px solid #333333;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  margin-top: 10px; }

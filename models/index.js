@@ -11,6 +11,7 @@ var db = {};
 if (config.use_env_variable) {
   var sequelize = new Sequelize(process.env[config.use_env_variable]);
 } else {
+  //dotenv for server authentication
   var sequelize = new Sequelize(
     process.env.DB,
     process.env.DB_USER,
