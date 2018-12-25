@@ -12,6 +12,7 @@ CREATE TABLE breweries (
   website VARCHAR(100) NULL,
   photo VARCHAR(100) NULL,
   phone VARCHAR(15) NULL,
+  locationGog VARCHAR(100) NULL,
   PRIMARY KEY (id)
 );
 
