@@ -30,7 +30,11 @@ module.exports = function(sequelize, DataTypes) {
         type: DataTypes.STRING,
         allowNull: false
       },
-      locationGog: {
+      latitude: {
+        type: DataTypes.STRING,
+        allowNull: false
+      },
+      longitude: {
         type: DataTypes.STRING,
         allowNull: false
       }
