@@ -1,20 +1,5 @@
-function initMap() {
-  var options = {
-    zoom: 10,
-    center: { lat: 47.6062, lng: -122.3321 }
-  };
-
-  var map = new google.maps.Map(document.getElementById("map"), options);
-
-  // new google.maps.Marker({
-  //   position: { lat: 47.6653, lng: -122.373 },
-  //   map: map,
-  //   title: "Hello World!"
-}
-
 $.get("/api", function(data) {
-  // var breweryTitle;
-
+  //Builds container for brewery data
   for (var i = 0; i < data.length; ++i) {
     console.log(data[i]);
     var brew = data[i];
@@ -54,6 +39,7 @@ $.get("/api", function(data) {
   //Populating all the divs with relavent information
   //Number of issues when trying to combine these two processes into a single loop
   //100% success rate spliting it into two for loops
+  //Using a contructor will probably work but will save that for later
 
   for (var i = 0; i < data.length; ++i) {
     var brew = data[i];
@@ -84,18 +70,4 @@ $.get("/api", function(data) {
       .eq(i)
       .text(brew.fullDescription);
   }
-
-  $.each(data, function(i, field) {
-    createMarker(data);
-
-    function createMarker(data) {
-      // console.log("data2.0: ");
-      // console.log(data);
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(data[i].latitude, data[i].longitude),
-        map: map,
-        title: field.crossroad
-      });
-    }
-  });
 });
