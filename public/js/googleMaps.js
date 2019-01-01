@@ -23,6 +23,11 @@ function initMap() {
           map: map,
           title: field.crossroad
         });
+
+        marker.addListener("click", function() {
+          map.setZoom(15);
+          map.setCenter(marker.getPosition());
+        });
       }
     });
   });
